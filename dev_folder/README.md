@@ -6,7 +6,7 @@
 
 1- Para poder empezar a trabajar crea tu rama:
 
-		git checkout -b <El_rama_de_tu_rama>
+		git checkout -b <NOMBRE_DE_LA_RAMA>
 
 Puedes ponerle cómo prefieras a tu rama, pero para mantenerlo simple y podamos recordarlo, te recomiendo que pongas tu nombre, por ejemplo mi rama se llamaría: _"juan-branch"_
 
