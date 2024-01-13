@@ -15,14 +15,14 @@ Una vez que estés dentro de tu rama podrás ahora sí hacer las Pull-Request al
 ### Realiza cambios y confírmalos
 Has cambios esenciales al proyecto y guárdalos.
 
-Luego ejecuta `git status` , y verás los cambios.
+2- Luego ejecuta `git status` , y verás los cambios.
 
-Agrega esos cambios a la rama recién creada usando el comando `git add`
+3- Agrega esos cambios a la rama recién creada usando el comando `git add`
 
-Luego confirma esos cambios utilizando el comando `git commit`
+4- Luego confirma esos cambios utilizando el comando `git commit`
 
 ### Envía los cambios a GitHub
-Para enviar los cambios a GitHub, debemos identificar el nombre del repositorio remoto.
+5- Para enviar los cambios a GitHub, debemos identificar el nombre del repositorio remoto.
 
 En este repositorio siempre podremos usar este comando:
 
