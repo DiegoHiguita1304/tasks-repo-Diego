@@ -26,7 +26,7 @@ Has cambios esenciales al proyecto y guárdalos.
 
 En este repositorio siempre podremos usar este comando:
 
-		git push -u origin main
+		git push -u origin <NOMBRE_DE_LA_RAMA>
 
 ## ¿Cómo hago las Pull-Request?
  
