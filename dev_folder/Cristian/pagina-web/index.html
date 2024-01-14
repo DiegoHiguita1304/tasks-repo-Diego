@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = yes, width = device-width">
+  <title>DH tienda</title>
+  <!-- <link rel="stylesheet" href="./styles.css"> -->
+</head>
+
+<body class="border">
+  <header class="border">
+    <h1>DH tienda</h1>
+    <!-- Barra de navegación     -->
+    <nav class="cajaNav">
+      <div class="titNav">
+        <div class="logo">
+          <a href="./index.html"><img src="./src/img/roma-3.svg" alt="logo"></a>
+        </div>
+        <div class="toggle" onclick="alternar('menu')">Menú</div>
+      </div>
+      <ul class="barNav cerrado" id="menu">
+        <li><a href="#">Sobre nosotros</a></li>
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Redes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="border">
+    <!-- INFO EMPRESARIAL -->
+    <div class="contenedor border">
+      <h2>Ropa para todos</h2>
+      <p>Ropa de hombre y mujer en nuestro sitio web para envios a nivel nacional</p>
+    </div>
+
+    <hr>
+    <!-- catalogo -->
+    <section class="catalogo border">
+      <h1>Catalogo</h1>
+
+      <div class="container-categories">
+        <input type="checkbox" name="categories-1" id="categories-1" value="male">
+        <label for="categories-1">Hombre</label>
+
+        <input type="checkbox" name="categories-2" id="categories-2" value="female">
+        <label for="categories-2">Mujer</label>
+
+        <input type="checkbox" name="categories-3" id="categories-3" value="children">
+        <label for="categories-3">Niño</label>
+      </div>
+
+      <form action="#">
+        <label for="order-by">Ordenar por: </label>
+        <select name="order" id="order">
+          <option value="order-1">Relevanccia</option>
+          <option value="order-2">Mayor precio</option>
+          <option value="order-3">Menor precio</option>
+        </select>
+      </form>
+      <hr>
+      <div class="container-product">
+        <h2>Camiseta Teaching tiny disciples</h2>
+        <img src="./src/img/camiseta.webp" alt="camiseta-1" width="300px">
+
+        <div class="features">
+          <p><strong>PRECIO</strong></p>
+          <span>$10.000</span>
+
+          <p><strong> CANTIDAD </strong></p>
+          <form action="#">
+            <label for="quantities">Cantidad de prendas: </label>
+            <input type="number" name="clothing-items" id="Clothing-items" placeholder="Ingresa la cantidad.">
+            </select>
+            <input type="submit" value="Enviar" />
+          </form>
+
+          <p><strong>TALLAS</strong></p>
+          <form action="#">
+            <label for="sizes">Talla: </label>
+            <select name="size" id="size">
+              <option disabled selected>Elige tu talla aquí</option>
+              <option value="size-S">S</option>
+              <option value="size-M">M</option>
+              <option value="size-L">L</option>
+              <option value="size-XL">XL</option>
+              <input type="submit" value="Enviar" />
+            </select>
+          </form>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="container-product">
+        <h2>Pantalón Jogger Beige</h2>
+        <img src="./src/img/pantalon.webp" alt="camiseta-1" width="300px">
+
+        <div class="features">
+          <p><strong>PRECIO</strong></p>
+          <span>$100.000</span>
+
+          <p><strong>CANTIDAD</strong></p>
+          <form action="#">
+            <label for="quantities">Cantidad de prendas: </label>
+            <input type="number" name="clothing-items" id="Clothing-items" placeholder="Ingresa la cantidad.">
+            </select>
+            <input type="submit" value="Enviar" />
+          </form>
+
+          <p><strong>TALLA</strong></p>
+          <form action="#">
+            <label for="sizes">Talla: </label>
+            <select name="size" id="size">
+              <option disabled selected>Elige tu talla aquí</option>
+              <option value="size-S">S</option>
+              <option value="size-M">M</option>
+              <option value="size-L">L</option>
+              <option value="size-XL">XL</option>
+              <input type="submit" value="Enviar" />
+            </select>
+          </form>
+        </div>
+      </div>
+      <hr>
+    </section>
+  </main>
+
+  <footer class="border">
+    <section>
+
+      <div class="container-contact">
+        <p><strong>Contacto</strong></p>
+        <p>301-xxx-xxx</p>
+        <p>PBX: 45xxxx</p>
+        <p><a href="#">Escribenos</a></p>
+      </div>
+      <hr>
+      <div>
+        <p><strong>Quiénes somos</strong></p>
+        <p><a href="">Cultura</a></p>
+        <p>
+          <a href="">Trabaja con nosotros</a>
+        </p>
+      </div>
+      <hr>
+      <div>
+        <p><strong>Ayuda</strong></p>
+        <p>Envios</p>
+        <p>Devoluciones</p>
+        <p>Preguntas frecuentes</p>
+      </div>
+      <hr>
+      <div>
+        <p><strong>Siguenos</strong></p>
+        <img src="./src/img/fb.svg" alt="facebook">
+        <img src="./src/img/ig.svg" alt="instagram">
+      </div>
+      <hr>
+    </section>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
